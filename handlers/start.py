@@ -32,8 +32,8 @@ async def back_start(call: CallbackQuery):
 async def rates(call: CallbackQuery):
     await call.message.edit_text(
         "📊 <b>КУРСЫ ВАЛЮТ:</b>\n\n"
-        "💰 <b>Покупка USDT:</b> 85₽\n"
-        "💎 <b>Продажа USDT:</b> 95₽\n\n"
+        "💰 <b>Покупка USDT:</b> 75₽\n"
+        "💎 <b>Продажа USDT:</b> 70₽\n\n"
         "⚡ Лучший курс на рынке!\n"
         "🔐 Без верификации",
         reply_markup=InlineKeyboardBuilder().button(text="◀️ НАЗАД", callback_data="start").as_markup()
